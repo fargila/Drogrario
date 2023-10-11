@@ -1,0 +1,106 @@
+header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    border-bottom-style:double;
+    border-bottom-color: #aaaaaa;
+}
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+button{
+    border-radius: 0%;
+    background-color: lightseagreen;
+    color: aliceblue;
+    border-style: none;
+    transition: 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+button:hover{
+    background-color: seagreen;
+    transition: 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
+}
+body{
+    display: inline;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.saida:hover{
+    background-color: #04242a;
+    transition: 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+}
+
+.direita{
+    background-color: #D9D9D9;
+    justify-content: center;
+    width: 85%;
+
+}
+.esquerda{
+    justify-content: center;
+    height: auto;
+    width: 15%; 
+    background-color: #043741;
+    color: aliceblue
+    ;
+}
+
+#linha{
+    margin-top: 0%;
+    padding-left: 3%;
+    background-color: #007281;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(15, 40, 116);
+}
+
+.tabela{
+    width: 100%;
+} 
+.Formulacao{
+    display:inline-flex;
+    background-color: white;
+    margin: 2%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.delete:hover{
+    background-color: red;
+    transition: 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
+}
+.opcao:hover{
+    background-color: #04242a;
+    transition: 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
+}
+.logo_usuario{
+    padding-right: 1%;
+}
+#it_for{
+    padding-left: 2%;
+}
+.add{
+    margin-left: 2%;
+    background-color: white;
+    color: #007281;
+    width: 15%;
+    height: 3%;
+}
+.add:hover{
+    background-color: #043741;
+    transition: 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
+    color: white;
+}
